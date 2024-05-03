@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapperInp{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50vh;
+    padding-left: 50vh; 
+
+}
+
+.ID{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    border-radius: 12px;
+    border: .6px solid #eee;
+
+}
+
+
+.password{
+    margin-top: 20px;
+    width: 400px;;
+    height: 60px;
+    border-radius: 12px;
+    border: .6px solid #eee; 
+}
+
+.loginOk{
+    margin-top: 20px;
+    border-radius: 16px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    background: rgb(239, 64, 15);
+    color: #fff;
+    box-shadow: 4px 8px 24px rgba(247, 98, 51, .25);
+
+}
